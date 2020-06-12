@@ -1,0 +1,6 @@
+[book]
+authors = ["Blas Rodriguez Irizar"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Spaceship Go"
