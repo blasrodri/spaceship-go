@@ -12,3 +12,5 @@
     - [Compare](./bytes-compare.md)
     - [Index](./bytes-index.md)
     - [Buffers](./bytes-buffers.md)
+- [Context](./context-intro.md)
+    - [In detail](./context-details.md)
