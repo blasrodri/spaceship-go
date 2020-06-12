@@ -16,3 +16,8 @@ simple as possible in order to be able to reach to a larger audience. And
 hopefully, this will still be found interesting for those looking for getting
 a deeper understanding of what tools the language and its runtime has to offer.
 
+## Feedback and comments
+This book is built entirely using markdown. And it's also hosted publicly on Github.
+For comments, issues, or any kind of feedback, please use the
+[Spaceship Go](https://github.com/blasrodri/spaceship-go) repository. PR's are more
+than wlecome, of any type!
