@@ -1,0 +1,22 @@
+## Errors
+
+Error handling is a very important topic in software engineering. There are
+plenty different schools of thought. Go's approach to it is very simple.
+It treates [**errors as values**](https://blog.golang.org/errors-are-values),
+and to some people unsufficient. But we won't get into this discussion here.
+
+The `error` type is used to indicate an _abnormal state_. When this happens,
+there are several ways to act. In this chapter, we will only focus on the
+availibility of tools that Go provides the developer to characterize and respond
+to this _abnomalities_.
+
+`error` is defined in the `built-in` package as:
+
+```go
+type error interface {
+    Error() string
+}
+```
+
+However, this package provides nothing else than this interface. Most of the
+sorrounding infrastructure is provided within the `errors` package instead.
