@@ -23,6 +23,7 @@ found directly in the source code of the package, which is found at the bottom
 of the index and examples, with the title of **package files**.
 
 ## Go Specification
+
 It's important to note that, while the scope of this book is the Standard Library,
 there is a lot of useful information in the [Go Spec](https://golang.org/ref/spec).
 This is a resource that needs to be considered and reviewed almost every time,

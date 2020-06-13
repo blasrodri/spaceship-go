@@ -11,18 +11,21 @@ type Context interface {
     Value(key interface{}) interface{}
 }
 ```
-Note:  these methods may be called by multiple goroutines simultaneously. 
+
+Note: these methods may be called by multiple goroutines simultaneously.
 
 The package provides different types of contexts, with different _service levels_:
+
 - emtpyCtx: it's one that is never cancelled, has no values and no deadline
 - canccelCtx: is one that can be cancelled. When cancelled, it also cancels all
-its children that implement cancel.
+  its children that implement cancel.
 - valueCtx: carries a key-value pair. Delegates all other calls (such as cancel) to its
-embedded context.
+  embedded context.
 - timerCtx: carries a timer and a deadline. It embeds `canccelCtx` to implement `Done` and `Err`.
-`cancel` is implementing by stopping its timer and delegating the call to `cancelCtx`
+  `cancel` is implementing by stopping its timer and delegating the call to `cancelCtx`
 
 It's important to note that as a user of theh package, we only have access to these types through
+
 ```go
 func WithCancel(parent Context) (ctx Context, cancel CancelFunc)
 func WithDeadline(parent Context, d time.Time) (Context, CancelFunc)
@@ -36,11 +39,11 @@ type CancelFunc func()
 ```
 
 When creating a context, there are some factory functions. And all of them return a `CancelFunc` type.
-This is, as its name indicates, a function. It tells an operation to abandon its work. It's async, and 
+This is, as its name indicates, a function. It tells an operation to abandon its work. It's async, and
 it can be called by multiple goroutines simultaneously. After the first call, the subsequent calls are
 no-ops.
 
-As an example, for the `cancelCtx` there is a `cancel` method. It closes the `done` channel and cancels
+As an example, for the `cancelCtx`, `cancel` method exists. It closes the `done` channel and cancels
 all of its children, plus some other cleaning tasks.
 
 ## Examples
@@ -48,7 +51,7 @@ all of its children, plus some other cleaning tasks.
 This is an extension of the original example provided in the std library.
 It depicts the usage of context within several goroutines that form a tree.
 
-Once the main goroutine triggers the `cancel` function, all of the others
+Once the main goroutine triggers the `cancel` function, all the others
 are also cancelled.
 
 ```go
@@ -115,7 +118,8 @@ func doStuff(ctx context.Context) {
 
 ```
 
-A plausible output (it's non deterministic):
+A plausible output (it's non-deterministic):
+
 ```
 1
 2

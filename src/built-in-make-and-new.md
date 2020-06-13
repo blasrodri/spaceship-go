@@ -1,9 +1,10 @@
 # make and new
 
 ## make
+
 `make` is a very singular function. Its purpose is to allocate and initialize
 an object of type slice, map, or chan (only). The output depends on the type
-it's operating upon. You can see the differences, depending the type in the
+it's operating upon. You can see the differences, depending upon the type in the
 excerpt below:
 
 ```go
@@ -19,5 +20,6 @@ func makeslicecopy(typ *byte, tolen int, fromlen int, from unsafe.Pointer) unsaf
 ```
 
 ## new
+
 It can be thought as a `make` alternative, but with a size equal to zero and
 always initializing the value to its zero value.

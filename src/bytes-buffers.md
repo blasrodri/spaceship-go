@@ -11,7 +11,7 @@ read bytes from it (`ReadByte`), remove some bytes (`Truncate`), remove all (`Re
 
 To create a Buffer, we need to call either `NewBuffer` or `NewBufferString`.
 The difference is in the input that they take. The former accepts a byte slice `[]byte`
-while the latter expects a string. 
+while the latter expects a string.
 
 For testing purposes let's say we create a buffer with some bytes:
 
@@ -20,7 +20,7 @@ For testing purposes let's say we create a buffer with some bytes:
 b := bytes.NewBuffer([]byte("some bytes"))
 ```
 
-To get the slice back, there is a `Bytes` method that can be used:
+To get the slice back, the `Bytes` method that can be used:
 
 ```go
 b.Bytes() // [115 111 109 101 32 98 121 116 101 115]
@@ -28,8 +28,8 @@ b.Bytes() // [115 111 109 101 32 98 121 116 101 115]
 
 We can read a fixed amount of bytes by using `Next(n int)`. It's important to note
 that calling this method will actually **read the bytes**. And thus, the buffer
-will have a new length of the previous one minus `n`. If the buffer's length
-was less than n then the method will return the entire buffer.
+will have a new length of the previous one minus `n`. In case the buffer's length
+was less than n, then the method will return the entire buffer.
 
 Alternatively, buffers can grow, be truncated and reset. For that, we have:
 
@@ -49,6 +49,7 @@ An alternative of achieving it would be:
 
 ```go
 // https://stackoverflow.com/questions/16748330/does-go-have-no-real-way-to-shrink-a-slice-is-that-an-issue
-b = append([]T(nil), b[:newSize]...) 
+b = append([]T(nil), b[:newSize]...)
 ```
+
 It is possible to work with the `Reader` interface. But it won't be covered in this chapter.
