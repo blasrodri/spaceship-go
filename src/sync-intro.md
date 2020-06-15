@@ -5,8 +5,8 @@ channels and goroutines. It makes it really easy to get off the ground with a
 program that can - in many cases - run much faster.
 
 The hard part of concurrency stems from having moving parts, which need
-to communicate with each other. Much of this problem can, and will be solved
-using channels. But sometimes channels are not enough. And that's why resorting
+to communicate with each other and where **sequence** of that exchange really
+matters.There are times wehere channels fall short. And that's why resorting
 to the `sync` package can be a really good option.
 
 Normally, I only pick a selection of functions, types, methods and interfaces to
