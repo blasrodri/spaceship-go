@@ -20,3 +20,9 @@
   - [Making error great again](./errors-great-again.md)
 - [Sync](./sync-intro.md)
   - [Cond](./sync-cond.md)
+  - [Mutex](./sync-mutex.md)
+  - [Do](./sync-do.md)
+  - [Pool](./sync-pool.md)
+  - [WaitGroup](./sync-waitgroup.md)
+
+

@@ -78,3 +78,5 @@ go func(c *sync.Cond) {
     // Unlock the Locker when its done
 }
 ```
+
+For completeness, a `Locker` is just an interface that defines two methods: `Lock` and `Unlock`.
