@@ -18,3 +18,4 @@
   - [As and Is](./errors-As-Is.md)
   - [Unwrap](./errors-unwrap.md)
   - [Making error great again](./errors-great-again.md)
+- [Sync](./sync-intro.md)
