@@ -1,6 +1,10 @@
 # Spaceship Go
 
-This is a set of notes I gathered in on my way to understanding how things worked
+To view the book, click [here](https://blasrodri.github.io/spaceship-go-gh-pages/)
+
+## Notes from the author
+
+This is a set of notes I gathered on my way to understanding how things worked
 in Go. The Standard Library is one of the best places to find answers. Especially
 for Go, since it comes with _batteries included_. And its source code is
 wonderfully documented.
