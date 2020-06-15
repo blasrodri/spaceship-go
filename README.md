@@ -1,5 +1,7 @@
 # Spaceship Go
 
+<a href="https://www.patreon.com/bePatron?u=37036394" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+
 To view the book, click [here](https://blasrodri.github.io/spaceship-go-gh-pages/)
 
 ## Notes from the author
