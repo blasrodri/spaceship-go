@@ -38,7 +38,7 @@ if e, ok := err.(*QueryError); ok && e.Err == ErrPermission {
 
 ## Remarks
 
-One of the biggest advantages of having these two methods, is when workign with
+One of the biggest advantages of having these two methods, is when working with
 highly nested errors. They bring all the necessary machinery to unwrap as much
 as needed until a match is found. Or if there is no match, we are sure that all
 the inner errors were also compared.
