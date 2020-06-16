@@ -33,3 +33,5 @@ to Andrew Gerrand, for all the great contributions he has in that space.
 There is also a Youtube channel called **just for func**, which I also highly
 recommend. It was particularly useful to prepare the groundwork for the `Context`
 chapter. Thanks to its creator, Francesc Campoy.
+
+The cover of the book is based on original work from [egonelbre gophers repo](https://github.com/egonelbre/gophers)

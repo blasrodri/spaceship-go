@@ -1,5 +1,6 @@
 # Summary
 
+- [Cover](./cover.md)
 - [Preface](./preface.md)
 - [Notes About Go Docs](./notes-about-godocs.md)
 - [Built in](./built-in.md)
@@ -24,5 +25,3 @@
   - [Do](./sync-do.md)
   - [Pool](./sync-pool.md)
   - [WaitGroup](./sync-waitgroup.md)
-
-

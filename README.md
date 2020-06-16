@@ -1,5 +1,8 @@
 # Spaceship Go
 
+![](./controllers_brief.svg)
+<img src="./src/img/cover.svg">
+
 To view the book, click [here](https://blasrodri.github.io/spaceship-go-gh-pages/)
 
 ## Notes from the author
