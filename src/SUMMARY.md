@@ -27,3 +27,4 @@
   - [WaitGroup](./sync-waitgroup.md)
 - [IO](./io-intro.md)
   - [Reader and Writer](./io-reader-and-writer.md)
+  - [Pipe in depth](./io-pipe-in-depth.md)
