@@ -25,3 +25,5 @@
   - [Do](./sync-do.md)
   - [Pool](./sync-pool.md)
   - [WaitGroup](./sync-waitgroup.md)
+- [IO](./io-intro.md)
+  - [Reader and Writer](./io-reader-and-writer.md)
