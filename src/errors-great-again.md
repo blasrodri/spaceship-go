@@ -44,7 +44,7 @@ new type, and adding a method for it that does what `write` is doing here. Then,
 we will not need to have any closure, nor ensure that the value is being closed
 by the function.
 
-This is even a much better way of working with erros. And in some ways, it
+This is even a much better way of working with errors. And in some ways, it
 brings to the table some of Haskell's/FP approach to error handling:
 
 ```go
