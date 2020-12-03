@@ -24,7 +24,7 @@ The package provides different types of contexts, with different _service levels
 - timerCtx: carries a timer and a deadline. It embeds `canccelCtx` to implement `Done` and `Err`.
   `cancel` is implementing by stopping its timer and delegating the call to `cancelCtx`
 
-It's important to note that as a user of theh package, we only have access to these types through
+It's important to note that as a user of the package, we only have access to these types through
 
 ```go
 func WithCancel(parent Context) (ctx Context, cancel CancelFunc)
