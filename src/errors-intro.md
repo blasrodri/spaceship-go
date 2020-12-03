@@ -19,4 +19,4 @@ type error interface {
 ```
 
 However, this package provides nothing else than this interface. Most of the
-sorrounding infrastructure is provided within the `errors` package instead.
+surrounding infrastructure is provided within the `errors` package instead.
