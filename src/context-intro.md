@@ -10,7 +10,7 @@ Context is a very singular pattern, that I have not seen implemented in the
 standard libraries of other languages. And since it's widely adopted in different
 projects, I thought it was worth covering it.
 
-Go proposes an interface to work with `Context`, whichh is
+Go proposes an interface to work with `Context`, which is
 
 > Programs that use Contexts should follow these rules to keep interfaces
 > consistent across packages and enable static analysis tools to check context propagation:
