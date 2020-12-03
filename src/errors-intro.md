@@ -7,7 +7,7 @@ and to some people unsufficient. But we won't get into this discussion here.
 
 The `error` type is used to indicate an _abnormal state_. When this happens,
 there are several ways to act. In this chapter, we will only focus on the
-availibility of tools that Go provides the developer to characterize and respond
+availability of tools that Go provides the developer to characterize and respond
 to these _anomalies_.
 
 `error` is defined in the `built-in` package as:
