@@ -1,6 +1,6 @@
 ## Constants
 
-Boolans true and false are defined here. And in a very smart and concise way:
+Booleans true and false are defined here. And in a very smart and concise way:
 ```go
 const (
     true = 0 == 0 // this is always true!
