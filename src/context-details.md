@@ -17,11 +17,11 @@ Note: these methods may be called by multiple goroutines simultaneously.
 The package provides different types of contexts, with different _service levels_:
 
 - emtpyCtx: it's one that is never cancelled, has no values and no deadline
-- canccelCtx: is one that can be cancelled. When cancelled, it also cancels all
+- cancelCtx: is one that can be cancelled. When cancelled, it also cancels all
   its children that implement cancel.
 - valueCtx: carries a key-value pair. Delegates all other calls (such as cancel) to its
   embedded context.
-- timerCtx: carries a timer and a deadline. It embeds `canccelCtx` to implement `Done` and `Err`.
+- timerCtx: carries a timer and a deadline. It embeds `cancelCtx` to implement `Done` and `Err`.
   `cancel` is implementing by stopping its timer and delegating the call to `cancelCtx`
 
 It's important to note that as a user of the package, we only have access to these types through
