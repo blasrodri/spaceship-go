@@ -1,6 +1,6 @@
 ## Working with buffers
 
-Sometimes our program needs to manipulate bytes. And we might or might not now
+Sometimes our program needs to manipulate bytes. And we might or might not know
 what's the size of this stream of bytes coming. Or perhaps we need to work with
 chunks... who knows!
 
