@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Spaceship Go"
+
+[output.epub]
+cover-image = "img/cover.svg"
+additional-resources = ["img/cover.svg"]
+optional = true
