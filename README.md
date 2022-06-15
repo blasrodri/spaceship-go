@@ -28,3 +28,21 @@ Writing is challenging. But I found it enormously helpful, as an exercise toward
 building a deeper understanding of how things work. If one can explain something,
 it means that one understands it. And this is the purpose of these notes. I hope
 I've learned, and I also hope you too!
+
+## Building
+
+To build the book:
+
+1. [Install `mdbook`](https://rust-lang.github.io/mdBook/guide/installation.html)
+2. Clone the repository (`git clone https://github.com/blasrodri/spaceship-go.git`)
+3. Run `mdbook`
+
+To optionally build the epub file format, install `mdbook-epub`:
+
+```
+cargo install mdbook-epub --version 0.4.14-alpha.0
+# Then run mdbook
+mdbook
+```
+
+Output will be saved as `book/Spaceship Go.epub`.
