@@ -1,2 +1,1 @@
-![](./controllers_brief.svg)
-<img src="./img/cover.svg">
+![Cover Image](./img/cover.svg)
