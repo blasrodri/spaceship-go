@@ -2,8 +2,8 @@
 
 Error handling is a very important topic in software engineering. There are
 plenty different schools of thought. Go's approach to it is very simple.
-It treates [**errors as values**](https://blog.golang.org/errors-are-values),
-and to some people unsufficient. But we won't get into this discussion here.
+It treats [**errors as values**](https://blog.golang.org/errors-are-values),
+and to some people is insufficient. But we won't get into this discussion here.
 
 The `error` type is used to indicate an _abnormal state_. When this happens,
 there are several ways to act. In this chapter, we will only focus on the

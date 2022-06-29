@@ -86,4 +86,4 @@ func main() {
 In this example, we can see how an error can pack and unpack other errors. And
 we can choose to define a strategy for the different scenarios. So, in this
 particular example, we could ask the user to make the query again and remind
-her not to forget to include _name_ as a paramter.
+her not to forget to include _name_ as a parameter.

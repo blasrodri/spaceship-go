@@ -6,7 +6,7 @@ are multiple users of a resource, and we would like to avoid having to create
 a new time every time we need to.
 
 `Pool` caches allocated but unused items so that they can be available for later
-use. It releives pressure from the garbage collector. However, 
+use. It relieves pressure from the garbage collector. However, 
 **Any item stored in the Pool may be removed automatically at**
 **any time without notification**.
 

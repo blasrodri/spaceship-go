@@ -37,11 +37,11 @@ func notifyListNotifyAll(l *notifyList) {
 		return
 	}
     /* 
-    ommited code
+    omitted code
     */
     s := l.head
     /* 
-    ommited code
+    omitted code
     */
 	for s != nil {
 		next := s.next
@@ -64,7 +64,7 @@ Cond has an associated `Locker` (which normally is a *Mutex or *RWMutex). This
 `Locker` must be held when calling the Wait method.
 
 If there's a goroutine that needs to be awaken to do some work,
-it can be modelled as follow:
+it can be modelled as follows:
 
 ```go
 go func(c *sync.Cond) {
@@ -75,7 +75,7 @@ go func(c *sync.Cond) {
     }
     // ... make use of condition ...
     c.L.Unlock()
-    // Unlock the Locker when its done
+    // Unlock the Locker when it's done
 }
 ```
 

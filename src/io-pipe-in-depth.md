@@ -31,7 +31,7 @@ Again, as consumers of `pipe` we only care about `PipeReader` and `PipeWriter`.
 > an `io.Writer`.
 
 Sometimes it can happen that we hold an `io.Reader`, but we need to call a function
-that expects an `io.Writer`. `Pipe` is a really good tool for acheiving it.
+that expects an `io.Writer`. `Pipe` is a really good tool for achieving it.
 
 > The data is copied directly from the `io.Write` to the corresponding `io.Read`
 > (or Reads) there is no internal buffering.
