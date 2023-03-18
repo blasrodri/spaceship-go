@@ -6,7 +6,7 @@ chunks... who knows!
 
 Buffers can help you, when you find yourself in these waters. But wait. What's a buffer?
 Think of it as a variable sized array of bytes. It's a data structure that can be
-resized to accomodate more or less bytes. It lets you write (`WriteByte`) new bytes to it,
+resized to accommodate more or less bytes. It lets you write (`WriteByte`) new bytes to it,
 read bytes from it (`ReadByte`), remove some bytes (`Truncate`), remove all (`Reset`), etc.
 
 To create a Buffer, we need to call either `NewBuffer` or `NewBufferString`.

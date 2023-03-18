@@ -32,8 +32,8 @@ func Compare(a, b []byte) int
 ```
 
 The directive `//go:noespace` tells the compiler that the values passed to the function
-must be stored in the stack. And addtionally that the function implementation is not written
-in Go. This means that the byte comparison function is implemented in a lower laguage, like
+must be stored in the stack. And additionally that the function implementation is not written
+in Go. This means that the byte comparison function is implemented in a lower language, like
 assembly.
 
 Check [Compiler directives](https://golang.org/cmd/compile/#hdr-Compiler_Directives) if you

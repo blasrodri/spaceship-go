@@ -30,9 +30,9 @@ type Writer interface {
 
 To see an implementation, we can check the one for `os.File`. There
 are some OS dependent helper functions that help `Write` doing their
-job. But essentailly it is a transparent copy of its description.
+job. But essentially it is a transparent copy of its description.
 
-Check a fragment of the POSIX implementatiof of `Write` from the source
+Check a fragment of the POSIX implementation of `Write` from the source
 code in the `os` package:
 
 ```go
@@ -97,7 +97,7 @@ handling the error if there was any. It adds that:
 `Read` implementation for type `os.File` relies on a helper function `read` that
 does all the work (except error handling). `read` itself relies on `poll.FD` (on \*nix),
 which is in charge of checking whether there is anything to be read on that
-file descriptor. For the very curious reader, go and check its implemenation of
+file descriptor. For the very curious reader, go and check its implementation of
 `FD`'s `Read` [here](https://golang.org/src/internal/poll/fd_unix.go?s=4169:4210#L135).
 
 ```go

@@ -1,7 +1,7 @@
 ## As
 
 `As` finds the **first error in err's chain that matches target**. If it
-succeds, it sets target to that error value and returns true. Otherwise,
+succeeds, it sets target to that error value and returns true. Otherwise,
 it returns false.
 
 `As` panics if target is not a non-nil pointer to either a type that implements

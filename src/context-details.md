@@ -16,7 +16,7 @@ Note: these methods may be called by multiple goroutines simultaneously.
 
 The package provides different types of contexts, with different _service levels_:
 
-- emtpyCtx: it's one that is never cancelled, has no values and no deadline
+- emptyCtx: it's one that is never cancelled, has no values and no deadline
 - cancelCtx: is one that can be cancelled. When cancelled, it also cancels all
   its children that implement cancel.
 - valueCtx: carries a key-value pair. Delegates all other calls (such as cancel) to its
@@ -135,7 +135,7 @@ Closing child
 ### Using WithTimeout
 
 This example is rather simple. But it shows how to propagate a timeout into a tree.
-Here we show how the main goroutine receives a `Done` signal after 50 miliseconds. This
+Here we show how the main goroutine receives a `Done` signal after 50 milliseconds. This
 triggers (through `cancel`) subsequent `Done` signals to all the goroutines that
 where created with the `WithTimeout` method.
 

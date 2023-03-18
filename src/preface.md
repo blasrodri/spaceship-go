@@ -19,10 +19,10 @@ a deeper understanding of what tools the language and its runtime has to offer.
 
 ## Feedback and comments
 
-This book is built entirely using markdown. And it's also hosted publicly on Github.
+This book is built entirely using markdown. And it's also hosted publicly on GitHub.
 For comments, issues, or any kind of feedback, please use the
 [Spaceship Go](https://github.com/blasrodri/spaceship-go) repository. PR's are more
-than wlecome, of any type!
+than welcome, of any type!
 
 ## Special thanks
 
@@ -30,7 +30,7 @@ Most of the book is just my interpretation of the Go's standard library. Besides
 found that the Go Blog is an extremely useful resource. Big thanks especially
 to Andrew Gerrand, for all the great contributions he has in that space.
 
-There is also a Youtube channel called **just for func**, which I also highly
+There is also a YouTube channel called **just for func**, which I also highly
 recommend. It was particularly useful to prepare the groundwork for the `Context`
 chapter. Thanks to its creator, Francesc Campoy.
 

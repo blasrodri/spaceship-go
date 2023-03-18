@@ -4,7 +4,7 @@ This function is not defined in the built-in package. But since it is used in
 the example for `recover` I wanted to mention it.
 
 `defer` is used to ensure that a function will be executed right before the 
-funcation that calls it terminates. As [Go By example](https://gobyexample.com/defer)
+function that calls it terminates. As [Go By example](https://gobyexample.com/defer)
 mentions, other languages provide the construct _finally_ in some contexts.
 
 The syntax is simple:

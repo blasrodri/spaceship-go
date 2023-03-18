@@ -34,5 +34,5 @@ Note: The `<<` is a left shift operand, which shift lefts the operand by an inte
 ```go
 var nil Type
 ```
-It represents the zero value of a type, within these clases: slices, pointer,
+It represents the zero value of a type, within these classes: slices, pointer,
 map, func, interface, or channel.
